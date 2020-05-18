@@ -1,0 +1,479 @@
+body {
+
+    margin: 0;
+    padding: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#header {
+    height: 30vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(img/end.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header2 {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(img/end.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.user-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.user-box img{
+
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid #666666;
+}
+.user-box h1{
+
+    color: rgb(10, 172, 161);
+    font-weight: bold;
+    margin: 10px;
+}
+
+.user-box p{
+
+    color: chocolate;
+
+}
+
+
+
+@keyframes mover{
+
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+
+}
+
+.acerca2{
+
+    padding-top: 40px;
+   
+
+}
+
+
+.acerca{
+
+    padding-top: 60px;
+   
+
+}
+
+.acerca3{
+
+    padding-top: 20px;
+   
+
+}
+
+
+
+ .profile-img{
+
+    height: 300px;
+    border-radius: 50%;
+  
+ }
+
+ .profile2-img{
+
+    height: 200px;
+    border-radius: 50%;
+
+
+
+
+ }
+
+ .nav-bar{
+     top: 0;
+     position: sticky;
+     z-index: 2;
+ }
+ .navbar{
+     background-color: rgb(10, 172, 161);
+ }
+
+ .navbar-brand img{
+
+    height: 30px;
+ 
+ }
+
+ .nav-bar .fa-bars{
+     font-size: 55px;
+     color: rgb(16, 2, 29);
+ }
+ .navbar-toggler{
+     outline: none !important;
+ }
+ .navbar-nav{
+     float: right;
+     text-align: right;
+ }
+ .nav-link{
+    color: rgb(255, 255, 255) !important;  
+
+ }
+
+ .nav-link:hover{
+    color: rgb(36, 6, 6) !important; 
+    background: dodgerblue;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;
+    
+
+ }
+
+
+
+ .skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 500;
+ }
+ .progress{
+
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+ }
+
+ .progress-bar{
+    border-radius: 16px; 
+    background: rgb(10, 172, 161) !important;
+
+
+ }
+
+
+ .experiencia{
+
+    margin-top: -400px;
+  
+    padding-bottom: 30px;
+margin-left: 200px;
+
+ }
+
+.de{
+
+    height: 250px;
+border-radius: 50px;
+
+}
+ 
+ .experiencia h3{
+
+    margin-bottom: 50px;
+ }
+
+ .tiempo{
+
+    list-style-type: none;
+    position: relative;
+
+ }
+
+ .tiempo:before {
+    content: '';
+    background: rgb(10, 172, 161);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 5px;
+    height: 100%;
+    z-index: 1;
+
+ }
+
+
+ .tiempo li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: rgb(10, 172, 161);
+    
+
+ }
+
+ .tiempo li h5 {
+    background-color: rgb(118, 170, 120);
+    padding: 5px 0 5px 20px;
+    color: rgb(6, 43, 104)
+    font-style: 15px;
+ }
+
+ .tiempo li h5 span {
+   
+    color: rgb(255, 255, 255);
+ }
+
+ .tiempo li:before {
+    content: '';
+    background: rgb(10, 172, 161);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+ }
+
+
+
+.contacto {
+    padding-top: 10px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/end.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contacto .row {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.contacto .col-md-4 .fa {
+    padding: 5px;
+    font-size: 25px;    
+ 
+
+}
+
+.social-icons {
+
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+    margin-top: -150px;
+    
+}
+
+.social-icons ul {
+
+    padding: initial;
+
+}
+
+
+.social-icons ul li {
+
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 172, 161);
+    font-size: 20px;
+
+}
+
+.social-icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+
+/* nueva */
+
+
+
+.social2-icons {
+
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 2;
+    width: 80px;
+    padding-top: 150px;
+
+    
+}
+
+.social2-icons ul {
+
+    padding: initial;
+
+}
+
+
+.social2-icons ul li {
+
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 172, 161);
+    font-size: 20px;
+
+}
+
+.social2-icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+/* nueva */
+
+
+
+.social23-icons {
+
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 2;
+    width: 80px;
+    margin-top: -280px;
+
+    
+}
+
+.social23-icons ul {
+
+    padding: initial;
+
+}
+
+
+.social23-icons ul li {
+
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 172, 161);
+    font-size: 20px;
+
+}
+
+.social23-icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+
+
+/* new */
+
+
+
+
+.social234-icons {
+
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 2;
+    width: 80px;
+    margin-top: -160px;
+
+    
+}
+
+.social234-icons ul {
+
+    padding: initial;
+
+}
+
+
+.social234-icons ul li {
+
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 172, 161);
+    font-size: 20px;
+
+}
+
+.social234-icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+ 
+
+
+/* experiencia   socialex-icons */
+
+
+
+.socialex-icons {
+
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 2;
+    width: 80px;
+    margin-top: 160px;
+
+    
+}
+
+.socialex-icons ul {
+
+    padding: initial;
+
+}
+
+
+.socialex-icons ul li {
+
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 172, 161);
+    font-size: 20px;
+
+}
+
+.socialex-icons ul li:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: 0.5s;
+}
+ 
